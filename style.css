@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(140.11deg, #8d5ae0 10.98%, rgba(100, 222, 105, 0.96) 100%);
+    min-height: 100vh;
+    /*margin:  0 auto;
+    /*width: 500px;*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.input input{
+    background: none; 
+    border: none;
+    font-size: 18px;
+}
+
+.input ::placeholder {
+    color: #533b7a;
+}
+
+button {
+    font-size: 25px;
+    border: none;
+    background: none;
+    border-radius: 20px;
+}
+
+button:hover{
+    background: #aadbfc;
+}
+
+p {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    border: none;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    border: none;
+    width:75%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+#delete {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.input :checked {
+    color: #8d5ae0;
+}
